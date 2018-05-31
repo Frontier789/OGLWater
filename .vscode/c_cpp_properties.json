@@ -1,0 +1,83 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                "/usr/include",
+                "/usr/local/include",
+                "${workspaceFolder}"
+            ],
+            "defines": [],
+            "intelliSenseMode": "clang-x64",
+            "browse": {
+                "path": [
+                    "/usr/include",
+                    "/usr/local/include",
+                    "${workspaceFolder}"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            },
+            "macFrameworkPath": [
+                "/System/Library/Frameworks",
+                "/Library/Frameworks"
+            ]
+        },
+        {
+            "name": "Linux",
+            "includePath": [
+                "/usr/include",
+                "/usr/local/include",
+                "${workspaceFolder}"
+            ],
+            "defines": [],
+            "intelliSenseMode": "clang-x64",
+            "browse": {
+                "path": [
+                    "/usr/include",
+                    "/usr/local/include",
+                    "${workspaceFolder}"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            }
+        },
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceRoot}",
+                "${workspaceRoot}/../tdk/flib11/include",
+                "c:/programs/mingw/bin/../lib/gcc/mingw32/5.3.0/include/c++",
+                "c:/programs/mingw/bin/../lib/gcc/mingw32/5.3.0/include/c++/mingw32",
+                "c:/programs/mingw/bin/../lib/gcc/mingw32/5.3.0/include/c++/backward",
+                "c:/programs/mingw/bin/../lib/gcc/mingw32/5.3.0/include",
+                "c:/programs/mingw/bin/../lib/gcc/mingw32/5.3.0/../../../../include",
+                "c:/programs/mingw/bin/../lib/gcc/mingw32/5.3.0/include-fixed"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "__GNUC__=6",
+                "__cdecl=__attribute__((__cdecl__))",
+                "__stdcall=attribute((stdcall))",
+                "__SIZE_TYPE__=long long "
+            ],
+            "intelliSenseMode": "clang-x64",
+            "browse": {
+                "path": [
+                    "${workspaceRoot}",
+                    "${workspaceRoot}/../tdk/flib11/include",
+                    "c:/Programs/MinGW/include",
+                    "c:/Programs/MinGW/lib/gcc/mingw32/5.3.0/include",
+                    "c:/Programs/MinGW/lib/gcc/mingw32/5.3.0/include/c++",
+                    "c:/Programs/MinGW/lib/gcc/mingw32/5.3.0/include/c++/mingw32"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            },
+            "cStandard": "c11",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}
